@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+* {
+  --ion-font-family: "Montserrat", "Arial", sans-serif; /* Custom font with fallback */
+}
+
+ion-app {
+  background-color: white;
+}
+ion-tab-bar {
+  --ion-padding: 0px; /* Remove extra padding */
+  --ion-margin: 0px; /* Remove extra margin */
+}
+ion-tab-button {
+  width: 100% !important;
+}

@@ -1,0 +1,34 @@
+.searchbar-input.sc-ion-searchbar-md {
+  border-radius: 2rem;
+}
+.job-title {
+  position: fixed;
+  top: 18%;
+  left: 2rem;
+}
+.job-container {
+  position: absolute;
+  top: 35dvh;
+  left: 0;
+  right: 0;
+  height: 100%;
+}
+.job-list {
+  border-top-left-radius: 1.75rem !important;
+  border-top-right-radius: 1.75rem !important;
+  background-color: white !important;
+  padding-inline: 5px;
+  padding-top: 40px;
+  padding-bottom: 15dvh;
+}
+.job-searchbar {
+  position: relative;
+  top: 25px;
+  z-index: 100;
+}
+.sticky-container {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding-inline: 20px;
+}
